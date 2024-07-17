@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEET THE TEAM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
 </head>
 <style>
     *{
@@ -16,22 +19,106 @@
 
     .flex-right{
         display: flex;
+        column-gap: 30px;
+        width: 80%;
+        margin: auto;
+        padding: 70px 20px;
+       
+        justify-content: space-around;
+       
         
     }
+
+    .t1{
+        text-align: center;
+    }
+
+    .thumblist{
+        display: flex;
+        column-gap: 20px;
+        align-content: center;
+        justify-content: center;
+        margin: 40px auto;
+        flex-wrap: wrap;
+    }
+    .thumblist img{
+        width: 80px;
+    }
+
+    .c1 img{
+        max-width: 100%;
+        
+    }
+
+    .c2{
+        max-width: 60%;
+        
+    }
+
+    p{
+        line-height: 30px;
+    }
+
+    .n1{
+        color: #8cc959;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .n2{
+        color: #525252;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+    .n3{
+        font-family: "Playwrite CU", cursive;
+        color: #8cc959;
+       
+    }
+
+    hr{
+        margin: auto;
+        width: 70%;
+    }
+
+    @media screen and (max-width:525px){
+
+        .flex-right{
+            display:flex;
+            padding: 70px 0px;
+            width: 100%;
+
+            flex-direction: column;
+        }
+
+        .n3{
+            display: none;
+        }
+
+        .c2{
+            max-width: 100%;
+    }
+
+    p{
+        text-align: justify;
+        margin-top: 20px;
+    }
+}
 </style>
 <body>
     
     <div class="flex-down">
-        <h2>
+        <h2 class="t1">
                 Passionate. Procreative. Expert
         </h2>
-        <div class="flex-right thumblist">
-                <a class="thumbs" href=""><img src="/images/tb1.png" alt="" srcset=""></a>
-                <a class="thumbs" href=""><img src="/images/tb5.png" alt="" srcset=""></a>
-                <a class="thumbs" href=""><img src="/images/tb4.png" alt="" srcset=""></a>
-                <a class="thumbs" href=""><img src="/images/tb3.png" alt="" srcset=""></a>
-                <a class="thumbs" href=""><img src="/images/tb2.png" alt="" srcset=""></a>
-                <a class="thumbs" href=""><img src="/images/tb6.png" alt="" srcset=""></a>
+        <div class="thumblist">
+                <a class="thumbs" href=""><img src="https://github.com/Soloeditor/Datss/blob/main/tb1.png?raw=true" alt="" srcset=""></a>
+                <a class="thumbs" href=""><img src="https://github.com/Soloeditor/Datss/blob/main/tb5.png?raw=true" alt="" srcset=""></a>
+                <a class="thumbs" href=""><img src="https://github.com/Soloeditor/Datss/blob/main/tb4.png?raw=true" alt="" srcset=""></a>
+                <a class="thumbs" href=""><img src="https://github.com/Soloeditor/Datss/blob/main/tb3.png?raw=true" alt="" srcset=""></a>
+                <a class="thumbs" href=""><img src="https://github.com/Soloeditor/Datss/blob/main/tb2.png?raw=true" alt="" srcset=""></a>
+                <a class="thumbs" href=""><img src="https://github.com/Soloeditor/Datss/blob/main/tb6.png?raw=true" alt="" srcset=""></a>
         </div>
             
       
@@ -43,7 +130,7 @@
 
     <div class="flex-right">
         <div class="c1">
-            <img src="./t6.jpg" alt="" srcset="">
+            <img src="https://github.com/Soloeditor/Datss/blob/main/t6.jpg?raw=true" alt="" srcset="">
             <h3 class="n1">DR COMFORT WALKER EdD</h3>
             <h3 class="n2">CHIEF EXECUTIVE OFFICER & FOUNDER</h3>
         </div>
@@ -68,7 +155,7 @@
     <!-- mr samuel -->
     <div class="flex-right">
         <div class="c1">
-            <img src="./t5.jpg" alt="" srcset="">
+            <img src="https://github.com/Soloeditor/Datss/blob/main/t5.jpg?raw=true" alt="" srcset="">
             <h3 class="n1">Mr. Samuel Adebowale</h3>
             <h3 class="n2">Board MEmber</h3>
         </div>
@@ -87,7 +174,7 @@
 <!-- pastor charles -->
     <div class="flex-right">
         <div class="c1">
-            <img src="./t4.jpg" alt="" srcset="">
+            <img src="https://github.com/Soloeditor/Datss/blob/main/t4.jpg?raw=true" alt="" srcset="">
             <h3 class="n1">Pastor Charles</h3>
             <h3 class="n2">Chief Consultant</h3>
         </div>
@@ -104,7 +191,7 @@
 
     <div class="flex-right">
         <div class="c1">
-            <img src="./t3.jpg" alt="" srcset="">
+            <img src="https://github.com/Soloeditor/Datss/blob/main/t3.jpg?raw=true" alt="" srcset="">
             <h3 class="n1">Ms. Sandra Oforiwaa Baah</h3>
             <h3 class="n2">Administrative Manager</h3>
         </div>
@@ -122,7 +209,7 @@
 
     <div class="flex-right">
         <div class="c1">
-            <img src="./t2.jpg" alt="" srcset="">
+            <img src="https://github.com/Soloeditor/Datss/blob/main/t2.jpg?raw=true" alt="" srcset="">
             <h3 class="n1">Mr. Peter Ebo Aidoo</h3>
             <h3 class="n2">Field Coordinator</h3>
         </div>
@@ -141,12 +228,12 @@
     <!-- blessing -->
     <div class="flex-right">
         <div class="c1">
-            <img src="./t1.jpg" alt="" srcset="">
+            <img src="https://github.com/Soloeditor/Datss/blob/main/t1.jpg?raw=true" alt="" srcset="">
             <h3 class="n1">Mr. Lander Blessing Solomon</h3>
             <h3 class="n2">Content Manager</h3>
         </div>
         <div class="c2">
-            <h3 class="n3">Mr. Peter Ebo Aidoo</h3>
+            <h3 class="n3">Mr. Lander Blessing Solomon</h3>
             <p class="d1">
                 Mr. lander is instrumental in driving our digital initiatives, from managing our social media campaigns to creating informative and inspiring posts that showcase the successes and ongoing efforts of DATSS. His innovative strategies and dedication will continue to elevate our online presence and advance our mission to support students with disabilities.
             </p>
